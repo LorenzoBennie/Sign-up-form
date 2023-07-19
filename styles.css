@@ -30,3 +30,8 @@ fieldset {
   display: flex;
   flex-direction: row;
 }
+
+label,
+input {
+  display: block;
+}
