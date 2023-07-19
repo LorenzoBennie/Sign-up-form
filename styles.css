@@ -16,3 +16,17 @@ body {
   width: 600px;
   background-size: 600px;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+}
