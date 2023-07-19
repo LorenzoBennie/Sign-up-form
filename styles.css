@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "galactic";
+  src:
+   url(./edge-of-the-galaxy-font/EdgeOfTheGalaxyPoster-3zRAp.otf);
+   font-weight: normal;
+   font-style: normal;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -15,6 +23,7 @@ body {
   height: 100%;
   width: 600px;
   background-size: 600px;
+  position: relative;
 }
 
 .content {
@@ -34,4 +43,29 @@ fieldset {
 label,
 input {
   display: block;
+}
+
+.logo_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245,245,245,0.5);
+  width: 100%;
+  position: absolute;
+  top: 200px;
+}
+
+.organization {
+  font-family: galactic;
+  color: #55555d;
+  font-size: 80px;
+  margin: 0px;
+  margin-top: 18px;
+}
+
+.rocket {
+  width: 120px;
+  height: 120px;
+  padding-bottom: 0px;
 }
