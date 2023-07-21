@@ -175,3 +175,13 @@ input:focus {
   padding-left: 0px;
   font-weight: bold;
 }
+
+a:visited {
+  font-family: 'Roboto', sans-serif;
+  color: #FF10F0; 
+}
+
+a:link {
+    font-family: 'Roboto', sans-serif;
+  color: #FF10F0;
+}
