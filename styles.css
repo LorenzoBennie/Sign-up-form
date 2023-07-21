@@ -21,7 +21,7 @@ body {
 
 .background_logo {
   height: 100%;
-  width: 750px;
+  width: 740px;
   background-size: 600px;
   position: relative;
 }
@@ -159,4 +159,10 @@ form {
 
 .form {
   flex: 1;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
 }
