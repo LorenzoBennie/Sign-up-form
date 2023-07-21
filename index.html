@@ -7,6 +7,7 @@
   <title>Sign-up form</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="./javascript.js" defer></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -24,35 +25,36 @@
       <p class="statement2">You <span><em>know</em></span>&nbsp; you want to.</p>
     </div>
     <div class="form">
-      <form method="post">
+      <form method="post" id="idForForm" onsubmit="return checkPassword(this)">
         <h1>Let's do this!</h1>
         <fieldset>
           <ul>
             <li>
               <label for="first_name">FIRST NAME</label>
-              <input type="text" id="first_name" required>
+              <input type="text" id="first_name" name="username" required>
             </li>
             <li>
               <label for="mail">EMAIL</label>
-              <input type="email" id="mail" required>
+              <input type="email" id="mail" name="usermail" required>
             </li>
             <li>
               <label for="pwrd">PASSWORD</label>
-              <input type="password" id="pwrd" required>
+              <input type="password" id="pwrd" name="password" required>
             </li>
           </ul>
           <ul>
             <li>
               <label for="last_name">LAST NAME</label>
-              <input type="text" id="last_name" required>
+              <input type="text" id="last_name" name="userlastname" required>
             </li>
             <li>
               <label for="pnum">PHONE NUMBER</label>
-              <input type="tel" id="pnum">
+              <input type="tel" id="pnum" name="usernumber">
             </li>
             <li>
               <label for="pwrd_confirm">CONFIRM PASSWORD</label>
-              <input type="password" id="pwrd_confirm" required>
+              <input type="password" id="pwrd_confirm" name="passwordConfirm" required>
+              <small id="pwrdConfirm_message"></small>
             </li>
           </ul>
         </fieldset>
@@ -62,7 +64,6 @@
         </div>
       </form>
     </div>
-    
   </div>
 </body>
 </html>

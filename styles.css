@@ -166,3 +166,12 @@ input:focus {
   box-shadow: 0 0 15px rgba(81, 203, 238, 1);
   padding: 3px 0px 3px 3px;
 }
+
+#pwrdConfirm_message {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 0px;
+  font-weight: bold;
+}
