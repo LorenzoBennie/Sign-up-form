@@ -22,7 +22,6 @@ body {
 .background_logo {
   height: 100%;
   width: 740px;
-  background-size: 600px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
