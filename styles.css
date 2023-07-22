@@ -24,9 +24,6 @@ body {
   width: 740px;
   background-size: 600px;
   position: relative;
-}
-
-img {
   background-repeat: no-repeat;
   background-size: cover;
 }
